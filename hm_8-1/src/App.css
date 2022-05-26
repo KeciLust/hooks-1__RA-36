@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+}
+.ulList {
+  list-style-type: none;
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.liList {
+  font-size: 20px;
+  border: 1px black solid;
+  margin-bottom: 1px;
+  padding: 5px;
+  cursor: pointer;
+}
+.liList:hover {
+  background-color: beige;
+}
+.focus {
+  background-color: bisque;
+}
+.details {
+  margin-left: 30px;
+  margin-top: 40px;
+}
