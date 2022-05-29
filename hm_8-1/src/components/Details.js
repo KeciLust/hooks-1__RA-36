@@ -3,6 +3,7 @@ import React from 'react'
 
 function Details(props) {
   if(!props.data){return}
+       
   return (<>
     <img src={props.data.avatar} alt={props.data.name} />
     <h3>{props.data.name}</h3>
@@ -14,3 +15,5 @@ function Details(props) {
 }
 
 export default Details
+  
+

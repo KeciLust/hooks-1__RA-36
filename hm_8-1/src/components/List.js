@@ -1,10 +1,14 @@
 import React from 'react'
 
-import {nanoid} from 'nanoid'
 
 function List(props) {
+  let className = 'liList'
+  if(Number(props.class) === Number(props.id)){
+     className = 'liList focus'
+  }
+ 
   return (
-    <li className='liList' key={nanoid()} onClick={props.fn} id={props.id}>{props.name}</li>
+    <li className={className} onClick={props.fn} id={props.id}>{props.name}</li>
   )
 }
 
